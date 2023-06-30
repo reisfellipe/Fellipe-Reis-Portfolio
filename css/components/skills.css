@@ -1,6 +1,6 @@
 .skills {
     background-color: var(--light-tertiary-color);
-    scroll-margin-top: 13rem;
+    scroll-margin-top: 15rem;
 }
 
 .skills .skills__content {
@@ -15,7 +15,7 @@
 
 .skills .skills__content ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, ifr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 2rem;
 }
 

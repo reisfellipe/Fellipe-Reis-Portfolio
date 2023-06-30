@@ -16,14 +16,26 @@
 <body>
     <!--NavBar-->
     <nav class="navbar">
-        <h1 class="logo">FReis</h1>
-        <ul class="navbar__links">
-            <li><a href="#header">Inicio</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#footer">Contato</a></li>
-        </ul>
+        <div class="navbar__content max-width mb-0">
+            <h1 class="logo">FReis</h1>
+            <ul class="navbar__links">
+                <li><a href="#header">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+            <div class="navbar__mobile">
+                <img src="assets/menu.svg" alt="menu" class="burguer">
+                <ul class="mobile__links">
+                    <li><a href="#header">Inicio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#footer">Contato</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <!--Header-->
@@ -60,6 +72,7 @@
             <p>Portanto, todos os dias eu busco aprimorar meus conhecimentos nas linguagens web, e estou gostando muito desse processo de aprendizado, meu inglês alavancou muito e por conta disso eu tive um progresso grande em um curto período de tempo.</p>
         </div>
     </section>
+
     <!--Skills-->
     <section id="skills" class="skills">
         <div class="skills__content max-width">
@@ -94,11 +107,12 @@
                         <img src="assets/javascript.png" alt="JavaScr"><!--Imagem JAVASCRITPT-->
                     </div>
                     <h3>JavaScript</h3>
-                    <p>Em aprendizado para melhores resoluções funcionais.</p>
+                    <p>Conhecimentos em funções, repetições, condicionais, porém em aprendizado contínuo para melhores resoluções funcionais.</p>
                 </li>
             </ul>
         </div>
     </section>
+
     <!--Projetos-->
     <section id="projects" class="projects max-width"> 
         <div class="projects__content">
@@ -108,34 +122,35 @@
         <ul>
             <li>
                 <div class="image">
-                    <img src="assets/task-manager.png"  alt="ProjetoUMtitulo">
+                    <img src="assets/Tom Holand (filme1).jpg"  alt="ProjetoUMtitulo">
                 </div>
                 <div class="projects__info">
                     <h3 class="tertiary-title">Projeto Spider-Man</h3>
-                    <p>Esse projeto foi construido do zero, em um bootcamp que eu participei da <span>Digital Innovation One</span>.</p>
-                    <a href="#">Clicar para ver</a>
+                    <p>Esse projeto foi construido do zero, em um bootcamp que eu participei da Digital Innovation One. Utilizando HTML, CSS e JavaScript para os comportamentos interativos.</p>
+                    <a href="#">← Clicar para ver</a>
                 </div>
             </li>
             <li class="projects__reversed-list">
                 <div class="image">
-                    <img src="assets/task-manager.png"  alt="ProjetoUMtitulo">
-                </div>
-                <div class="projects__info">
-                    <h3 class="tertiary-title">Projeto Blog-Android</h3>
-                    <p>Projeto construido do absoluto zero por mim, através de um desafio dado no <span>CursoemVideo</span> pelo professor: Gustavo Guanabara.</p>
-                    <a href="#">Clicar para ver</a>
-                </div>
-            </li>
-            <li>
-                <div class="image">
-                    <img src="assets/task-manager.png"  alt="ProjetoUMtitulo">
+                    <img src="assets/Projeto-Landing-Page.png"  alt="ProjetoUMtitulo">
                 </div>
                 <div class="projects__info">
                     <h3 class="tertiary-title">Projeto Landing Page</h3>
                     <p>Minha primeira Landing Page "Responsiva" usando os conceitos de Media Queries, animações, e pseudo-classes no CSS.</p>
-                    <a href="#">Clicar para ver</a>
+                    <a href="https://reisfellipe.github.io/Landing-Page/" target="_blank">Clicar para ver →</a>
                 </div>
             </li>
+            <li>
+                <div class="image">
+                    <img src="assets/Projeto-Blog-Android.png"  alt="ProjetoUMtitulo">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">Projeto Blog-Android</h3>
+                    <p>Projeto construido do absoluto zero por mim, através de um desafio dado no <span>CursoemVideo</span> pelo professor: Gustavo Guanabara.</p>
+                    <a href="https://reisfellipe.github.io/Projeto-Android/FETECH.html" target="_blank">← Clicar para ver</a>
+                </div>
+            </li>
+            
         </ul>
     </section>
     <!--Rodapé-->
@@ -144,13 +159,13 @@
                 <h2 class="tertiary-title mb-s">Vamos Conversar?</h2>
                 <p class="mb-m">Ficarei feliz em saber mais sobre seus projetos e como podemos trabalhar juntos para torna-los realidade.</p>
             <div class="footer__contact mb-m">
-                <span class="mb-m">reisfellipe11@gmal.com</span>
+                <span class="mb-m">reisfellipe11@gmail.com</span>
                 <span>(11) 96545-3461</span>
             </div>
             <ul>
-                <li><a href="#"><img src="assets/github.svg" alt="GitHub"></a></li>
-                <li><a href="#"><img src="assets/linkedin.svg" alt="Linkedln"></a></li>
-                <li><a href="#"><img src="assets/instagram.svg" alt="Instagram"></a></li>
+                <li><a href="https://github.com/reisfellipe" target="_blank"><img src="assets/github.svg" alt="GitHub"></a></li>
+                <li><a href="https://www.linkedin.com/in/fellipe-reis-06551a220/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedln"></a></li>
+                <li><a href="https://www.instagram.com/reisfellipe.ofc/" target="_blank"><img src="assets/instagram.svg" alt="Instagram"></a></li>
             </ul>
             <p class="footer__copyright">
                 © 2023 Fellipe Reis. Todos os direitos reservados
